@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "449245207141",
+    "project_id": "eco-ride-ba",
+    "storage_bucket": "eco-ride-ba.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449245207141:android:8014d6f5e83b74d721448c",
+        "android_client_info": {
+          "package_name": "com.hamzakhann95.ridesharing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449245207141-fv2bhif3bgfgu98houb4bgkef0r718f0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hamzakhann95.ridesharing",
+            "certificate_hash": "22f4866fd0ae242fad6236d5752cbae877003a72"
+          }
+        },
+        {
+          "client_id": "449245207141-iniiqt48f1seicmsub9aifk2mc0uer99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARYMsYFJ_84O3XqqXH7W1an957fPW3XA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449245207141-iniiqt48f1seicmsub9aifk2mc0uer99.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "449245207141-ahcbr25cbjab9814s247ujlrfuvh1o2j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hamzakhann95.ridesharing"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

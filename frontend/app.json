@@ -1,0 +1,111 @@
+{
+  "expo": {
+    "name": "ride-sharing",
+    "slug": "ride-sharing",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "googleServicesFile": "./assets/GoogleService-Info.plist",
+      "config": {
+        "googleMapsApiKey": "AIzaSyC_qENeuRAe_Weq0xdxyAuJoCIJnooKcaw"
+      },
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hamzakhann95.ridesharing",
+      "infoPlist": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "com.googleusercontent.apps.449245207141-ahcbr25cbjab9814s247ujlrfuvh1o2j"
+            ]
+          }
+        ],
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "googleServicesFile": "./assets/google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDOVhB3pOBFAorXfeG4Ip_-Wnzz5VEo98k"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/splash.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hamzakhann95.ridesharing"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/icon.png"
+    },
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.449245207141-ahcbr25cbjab9814s247ujlrfuvh1o2j"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash.png",
+          "imageWidth": 200,
+          "resizeMode": "cover",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      [
+        "expo-secure-store",
+        {
+          "configureAndroidBackup": true,
+          "faceIDPermission": "Allow $(PRODUCT_NAME) to access your Face ID biometric data."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "913cc5e6-a8aa-44fa-b170-5545c5980b38"
+      }
+    }
+  }
+}

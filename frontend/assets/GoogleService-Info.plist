@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>449245207141-ahcbr25cbjab9814s247ujlrfuvh1o2j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.449245207141-ahcbr25cbjab9814s247ujlrfuvh1o2j</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>449245207141-fv2bhif3bgfgu98houb4bgkef0r718f0.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCMFedLv-EraLgtC3bXncFgbIHNi8Lmn08</string>
+	<key>GCM_SENDER_ID</key>
+	<string>449245207141</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hamzakhann95.ridesharing</string>
+	<key>PROJECT_ID</key>
+	<string>eco-ride-ba</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eco-ride-ba.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:449245207141:ios:190a2629b9f9811921448c</string>
+</dict>
+</plist>
